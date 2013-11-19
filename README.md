@@ -34,7 +34,6 @@ Continuous delivery
 
 - what CI is used?
 - who manages it?
-- 
 - how is the feedback of the CI made available to the developers?
 
 ### Code quality control
