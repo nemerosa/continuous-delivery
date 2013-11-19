@@ -35,6 +35,7 @@ Continuous delivery
 - what CI is used?
 - who manages it?
 - how is the feedback of the CI made available to the developers?
+- how is the versioning managed?
 
 ### Code quality control
 
@@ -56,7 +57,22 @@ Continuous delivery
 - how is the coverage of automated tests monitored?
 - who is responsible for the outcome of the automated tests?
 - what kind of feedback is returned to the testers & developers?
+- are successed and failures tracked?
 
 ### Delivery
 
+- what are the artifacts produced by the CI?
+- are they deployment ready?
+- are they environment agnostic? If not, explain why?
+- if not, what do they miss?
+- where are the artifacts stored?
+- what is the storage policy (max age, etc.)
+- is the promotion of artifacts tracked in any way?
+- how is the change log managed?
+
 ### Deployment
+
+- how the artifacts are deployed?
+- is the deployment mechanism the same in all environments?
+- is the deployment tracked?
+- are rollbacks taken into account?
